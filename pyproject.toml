@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qguard"
+version = "0.1.0"
+description = "Q-Guard: Auditing and Repairing Argmax Collapse in Multi-Agent Quorum Systems"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Q-Guard Authors"},
+]
+keywords = ["multi-agent", "reinforcement-learning", "quorum", "consensus", "IoV", "UAV"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "isort>=5.12",
+    "mypy>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Xuefeng-Du1121/Q-Guard"
+Repository = "https://github.com/Xuefeng-Du1121/Q-Guard"
+Issues = "https://github.com/Xuefeng-Du1121/Q-Guard/issues"
+
+[project.scripts]
+qguard-eval = "qguard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qguard*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 100

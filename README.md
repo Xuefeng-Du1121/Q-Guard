@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Partial%20Release-yellow)](https://github.com/Xuefeng-Du1121/Q-Guard)
 
 > **⚠️ Partial Release Notice**  
-> This repository contains the **inference-only code and pre-trained models** accompanying our paper submitted to IEEE Transactions on Mobile Computing. The complete codebase, including training scripts, hyperparameters, and experiment automation, will be released upon paper acceptance.
+>   This repository accompanies our paper "When Argmax Breaks Consensus: Auditable MARL Execution for UAV-Assisted Internet of Vehicles" (under review).
 
 ---
 
@@ -129,12 +129,12 @@ Q-Guard/
 **Our paper is currently under review.** If you use this code, please cite:
 
 ```bibtex
-@article{qguard2026,
-  title={Q-Guard: Auditing and Repairing Argmax Collapse in Multi-Agent Quorum Systems},
-  author={[Authors withheld for review]},
-  journal={Under Review at IEEE Transactions on Mobile Computing},
-  year={2026}
-}
+  @article{qguard2026,
+    title={When Argmax Breaks Consensus: Auditable MARL Execution for UAV-Assisted Internet of Vehicles},
+    author={[Authors withheld for review]},
+    journal={Under review},
+    year={2026}
+  }
 ```
 
 **Full citation with author names will be updated upon acceptance.**
@@ -165,8 +165,6 @@ This code is released under the [MIT License](LICENSE).
 **Usage Restrictions (Until Paper Acceptance):**
 - ✅ You may use this code for research, education, and evaluation
 - ✅ You may cite our work in your papers
-- ❌ Please do not use this code as a baseline in submissions to conferences/journals before our paper is accepted
-- ❌ Please do not re-train or modify the method for publication before the full code is released
 
 These restrictions will be removed when the complete codebase is released upon paper acceptance.
 

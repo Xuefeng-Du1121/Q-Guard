@@ -33,4 +33,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-**Note:** This is a partial release accompanying our paper submission to IEEE Transactions on Mobile Computing. The complete codebase will be released upon paper acceptance.
+**Note:** This is a partial release accompanying our paper submission to IEEE Internet of Things Journal. The complete codebase will be released upon paper acceptance.
